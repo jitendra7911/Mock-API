@@ -1,0 +1,171 @@
+{
+  "questionList": [
+    {
+      "id": 1,
+      "questionNumber": "Q01TY",
+      "title": "<p>Which one is not the phases of project management?</p>",
+      "type": "MCQ",
+      "mark": 1.0,
+      "successRate": 80,
+      "lastEditDate": "12 Feb 2022",
+      "lastEditBy": {
+        "id": 1,
+        "name": "Rachel Phang"
+      },
+      "status": "pending",
+      "description": "<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>",
+      "options": {
+        "multipleAnswer": true,
+        "allOrNothing": true,
+        "choices": [
+          {
+            "id": 1,
+            "isCorrect": true,
+            "text": "<p>Project Initiation</p>",
+            "mark": 1
+          },
+          {
+            "id": 2,
+            "isCorrect": true,
+            "text": "<p>Project Planning</p>",
+            "mark": 1
+          },
+          {
+            "id": 3,
+            "isCorrect": true,
+            "text": "<p>Project Budgeting</p>",
+            "mark": 1
+          },
+          {
+            "id": 4,
+            "isCorrect": true,
+            "text": "<p>Project Monitioring & Control</p>",
+            "mark": 1
+          },
+          {
+            "id": 5,
+            "isCorrect": true,
+            "text": "<p>Project Closure</p>",
+            "mark": 1
+          }
+        ]
+      },
+      "difficulty": 1,
+      "course": {
+        "id": 1,
+        "title": "Course 1 training"
+      },
+      "module": {
+        "id": 1,
+        "title": "Risk Management"
+      },
+      "topic": {
+        "id": 1,
+        "title": "RM processes"
+      },
+      "utilizedExams": [
+        {
+          "id": 1,
+          "name": "Exam name 1"
+        },
+        {
+          "id": 1,
+          "name": "Exam name 2"
+        },
+        {
+          "id": 1,
+          "name": "Exam name 3"
+        }
+      ]
+    }
+  ],
+  "getExamList": [
+    {
+      "statusCode": 1,
+      "responseData": [
+        {
+          "sectionNumber": "Section A",
+          "sectionQuestion": [
+            {
+              "questionNumber": "Question 1",
+              "questionDesc": "Multiple Choice Question",
+              "questionMark": 1
+            },
+            {
+              "questionNumber": "Question 2",
+              "questionDesc": "Multiple Choice Question",
+              "questionMark": 1
+            },
+            {
+              "questionNumber": "Question 3",
+              "questionDesc": "Multiple Choice Question",
+              "questionMark": 1
+            }
+          ]
+        },
+        {
+          "sectionNumber": "Section B",
+          "sectionQuestion": [
+            {
+              "questionNumber": "Question 1",
+              "questionDesc": "Multiple Choice Question",
+              "questionMark": 1
+            },
+            {
+              "questionNumber": "Question 2",
+              "questionDesc": "Multiple Choice Question",
+              "questionMark": 1
+            }
+          ]
+        },
+        {
+          "sectionNumber": "Section C",
+          "sectionQuestion": [
+            {
+              "questionNumber": "Question 1",
+              "questionDesc": "Multiple Choice Question",
+              "questionMark": 1
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "getExamLayout": [
+    {
+      "questions": [
+        {
+          "id": 0,
+          "qtype": "mcq",
+          "name": "string",
+          "description": "string",
+          "mark": 0,
+          "sort_order": 0
+        }
+      ],
+      "id": 0,
+      "name": "string",
+      "description": "string",
+      "sort_order": 0
+    }
+  ],
+
+  "saveExamLayoutServer": [
+    {
+      "questions": [
+        {
+          "id": 0,
+          "qtype": "mcq",
+          "name": "string",
+          "description": "string",
+          "mark": 0,
+          "sort_order": 0
+        }
+      ],
+      "id": 0,
+      "name": "string",
+      "description": "string",
+      "sort_order": 0
+    }
+  ]
+}
